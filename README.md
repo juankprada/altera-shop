@@ -37,7 +37,7 @@ The idea was to build a Kubernetes native solution using GraalVM to produce nati
 
 
 1. Go to the root of the project `altera-shop`
-	- run `docker compose -f docker-compose/docker-compose-all-services.yml up`
+	- run `docker compose -f docker-compose/docker-compose-all-dependencies.yml up`
 
 	This will start all dependency services needed:
 		- PostgresDB
